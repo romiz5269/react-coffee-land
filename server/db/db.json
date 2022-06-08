@@ -1,0 +1,53 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "token": "1345345"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "serial": "45891234",
+      "name": "قهوه ترک",
+      "src": "../img/4.jpg",
+      "price": "30,000",
+      "category": "hot-drink"
+    },
+    {
+      "id": 2,
+      "serial": "55891234",
+      "name": "کافه گلاسه",
+      "src": "../img/4.jpg",
+      "price": "30,000",
+      "category": "hot-drink"
+    },
+    {
+      "id": 3,
+      "serial": "65891234",
+      "name": "کافه گلاسه",
+      "src": "../img/4.jpg",
+      "price": "30,000",
+      "category": "cold-drink"
+    },
+    {
+      "id": 4,
+      "serial": "75891234",
+      "name": "کافه گلاسه",
+      "src": "../img/4.jpg",
+      "price": "30,000",
+      "category": "cold-drink"
+    },
+    {
+      "id": 5,
+      "serial": "85891234",
+      "name": "کافه گلاسه",
+      "src": "../img/4.jpg",
+      "price": "30,000",
+      "category": "cold-drink"
+    }
+  ],
+  "orders": []
+}

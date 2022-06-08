@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+  .top-Menu .menu-nav,
+  .top-Menu .menu-login {
+    display: none;
+  }
+  .top-Menu .menu-toggler {
+    display: block;
+  }
+  .top-Menu {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .top-Menu.responsive {
+    display: block;
+  }
+  .top-Menu.responsive .menu-brand {
+    justify-content: start;
+  }
+  .top-Menu.responsive a.icon {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+  }
+  .top-Menu.responsive .menu-nav,
+  .menu-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-Menu.responsive .menu-nav ul,.top-Menu.responsive .menu-nav ul li{
+      width: 100%;
+      justify-content: space-between;
+  }
+  .top-Menu.responsive .menu-nav ul li{
+      background-color: #f6f6f6;
+      margin-bottom: 10px;
+      border-radius: 5px;
+  }
+
+  .header-intro{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+
+}

@@ -1,0 +1,80 @@
+.dashboard-container {
+  max-width: 1400;
+  font-family: Cairo, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0e191d;
+  color: #fff;
+}
+.navbar button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-family: Cairo, sans-serif;
+  color: #fff;
+}
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+}
+.navbar nav ul li a {
+  color: #fff;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.orderlist {
+  width: 80%;
+  padding: 10px 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin-bottom: 30px;
+}
+.orderlist img {
+  border-radius: 10px;
+}
+.orderlist button {
+  font-family: Cairo, sans-serif;
+  font-size: 18px;
+}
+.orderlist .confirm,
+.orderlist .delete {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+.orderlist .confirm {
+  background-color: green;
+  color: #fff;
+}
+.orderlist .delete{
+    background-color: crimson;
+    color:#fff;
+}
